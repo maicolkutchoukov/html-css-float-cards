@@ -27,19 +27,22 @@ h1{
 
 /* CREAZIONE COLONNE FLOAT */
 
+.colums > *, .colums > div > img{
+    float:left;
+}
+
 .colums > div{
     background-color: #0F0E17;
     width: calc((100% / 3) - 20px);
-    height: 100px;
     margin:10px 10px;
     color:white;
-    float: left;
+    /* float: left; */
 }
 
 .colums > * > img{
     height: 100px;
     margin-right: 15px;
-    float:left;
+    /* float:left; */
 }
 
 .clearfix::after{
