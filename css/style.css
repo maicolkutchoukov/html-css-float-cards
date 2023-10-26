@@ -2,4 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Playpen Sans', sans-serif;
+}
+
+h1{
+    color: #E53170;
+    margin: 30px
+}
+
+h1, p{
+    text-align: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;;
+}
+.card{
+    background-color: aqua;
+    width: calc((100% / 3) - 20px);
+    height: 100px;
+    float: left;
+    margin:10px 10px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
