@@ -15,17 +15,30 @@ h1{
 
 /* CENTRATURA ELEMENTI */
 
-.container > p, h1{
+
+p:first-child, h1{
     text-align: center;
     margin: 30px;
 }
+
+/* .container > p, h1{
+    text-align: center;
+    margin: 30px;
+} */
 
 .container{
     max-width: 1200px;
     margin: 0 auto;;
 }
 
-/* CREAZIONE COLONNE FLOAT */
+/* ----------------------
+
+CREAZIONE COLONNE FLOAT 
+
+.colums > * = TUTTI I FIGLI DIRETTI DI COLUMS
+.colums > div > img = TUTTI GLI IMG, PRESENTI DENTRO AI DIV, PRESENTI DENTRO A COLUMS
+
+-------------------------*/
 
 .colums > *, .colums > div > img{
     float:left;
